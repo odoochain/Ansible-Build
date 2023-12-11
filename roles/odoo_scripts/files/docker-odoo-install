@@ -53,7 +53,7 @@ done
 # Fallback to environment vars and default values
 : ${CONTAINER:='odoo'}
 : ${MODULES:='base'}
-: ${ODOO_LANGUAGE:='en_US'}
+: ${ODOO_LANGUAGE:='zh_CN'}
 
 # Verify variables
 [[ -z "$DATABASE" ]] && { echo "Parameter -d|database is empty" ; exit 1; }
